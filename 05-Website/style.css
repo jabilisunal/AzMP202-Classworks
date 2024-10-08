@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    background-color: turquoise;
+    height: 150px;
+    text-align: center;
+  
+}
+.heading h1{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+.web{
+    background-color: burlywood;
+    display: flex;
+    text-align: center;
+    height: 200px;
+}
