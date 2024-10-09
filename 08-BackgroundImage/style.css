@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu h1{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.title{
+    text-align: center;
+    margin-top: 140px;
+    color: #fff;
+}
+.title h1{
+    font-size: 70px;
+}
+.title p{
+    font-size: 20px;
+}
