@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+text-align: center;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin: -30px auto;
+
+
+}
+ i{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: -30px;
+    text-align: center;
+}
+.card h3,p{
+    margin-top: 10px;
+    text-align: center;
+}
