@@ -1,0 +1,38 @@
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.menu ul li {
+    /* margin: 10px; */
+} 
+.header-top{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    display: none;
+}
+.icons div{
+    background-color: red;
+    padding: 10px;
+}
+.icons div i {
+    color: white;
+}
+
+@media only screen and (max-width: 1023px) {
+    .icons{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+}
