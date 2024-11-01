@@ -129,7 +129,7 @@ let reserved=[];
 for (let index = array1.length-1; index >=0;index--) {
     reserved.push(array1[index])
 }
-console.log(reserved);
+console.log(reserved);W
 
 
 
