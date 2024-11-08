@@ -1,0 +1,19 @@
+.color {
+  color: red;
+}
+.bg {
+  background-color: green;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: green;
+}
+.box .text {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-top: 10px;
+}
